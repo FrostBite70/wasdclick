@@ -359,7 +359,7 @@ li {
 	z-index: 4;
 }
 .gameTitle::after {
-  content: "3D Mini Football"; 
+  content: "Motor Sports 3D"; 
   position: absolute;
   left: 0;
   top: 0;
