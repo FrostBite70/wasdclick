@@ -337,6 +337,7 @@ li {
 	transition: background-color .7s ease-in-out;
 }
 .imgsize {
+  pointer-events: auto;
 	position: relative;
 	width: 97.5%;
 	height: 97.5%;
