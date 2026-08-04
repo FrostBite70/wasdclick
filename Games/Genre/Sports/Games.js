@@ -9,7 +9,7 @@ var spinIn = document.querySelector('.spinIn');
 var spinOut = document.querySelector('.spinOut');
 
 const renderer = new THREE.WebGLRenderer();
-document.getElementsByClassName('imgsize').appendChild(renderer.domElement);
+document.querySelector('.imgsize').appendChild(renderer.domElement);
 
 
 navbtn.addEventListener('click', () => {
