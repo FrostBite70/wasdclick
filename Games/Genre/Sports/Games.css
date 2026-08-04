@@ -344,7 +344,7 @@ li {
 	border-radius: 20px;
 	display: inline-block;
 	float: none;
-	z-index: 3;
+	z-index: 100;
 	margin-top: 7px;
 	margin-bottom: 5px;
 }
