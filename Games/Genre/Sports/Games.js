@@ -8,6 +8,10 @@ let contact = document.getElementById('#contact');
 var spinIn = document.querySelector('.spinIn');
 var spinOut = document.querySelector('.spinOut');
 
+const renderer = new THREE.WebGLRenderer();
+document.getElementByClass('imgsize').appendChild(renderer.domElement);
+
+
 navbtn.addEventListener('click', () => {
   let fps = setTimeout(navbtn.onclick = function () {
     this.contact.style.padding = '0px 15px';
