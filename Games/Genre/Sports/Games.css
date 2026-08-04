@@ -331,6 +331,7 @@ li {
 	animation-delay: 2.5;
 	animation: fadeIn 3s;
 	transition: background-color .7s ease-in-out;
+  z-index: 100;
 }
 .gameContainer:hover {
 	background-color: #282828;
@@ -344,7 +345,7 @@ li {
 	border-radius: 20px;
 	display: inline-block;
 	float: none;
-	z-index: 100;
+	z-index: 3;
 	margin-top: 7px;
 	margin-bottom: 5px;
 }
